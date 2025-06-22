@@ -29,7 +29,22 @@ This project demonstrates the integration of CometChat's Android Java UI Kit usi
 - cometchat-uid-5
 
 ## 📸 Screenshots
-*(You can upload them to GitHub using Issues or embed links from Imgur/Drive)*
+
+### 🧵 Chat Screen
+![Chat Screen](screenshots/chatscreen.jpg)
+
+### 💬 Conversation Screen
+![Conversation Screen](screenshots/conversationscreen.jpg)
+
+### 👥 Group Chat Screen
+![Group Chat](screenshots/groupscreen.jpg)
+
+### 📞 Call Logs
+![Call Logs](screenshots/callscreen.jpg)
+
+### 👤 User List
+![User List](screenshots/userscreen.jpg)
+
 
 ## 📂 How to Run
 - Clone the repo
