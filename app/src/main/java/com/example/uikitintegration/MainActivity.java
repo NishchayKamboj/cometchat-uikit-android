@@ -14,15 +14,16 @@ public class MainActivity extends ComponentActivity {
 
     private static final String TAG = "MainActivity";
 
-    private final String appID = "277753919a7ee846"; // Replace with your App ID
-    private final String region = "in"; // Replace with your App Region
-    private final String authKey = "7da039e6bb051d3a6e823fa8b6e01cc507635c86"; // Replace with your Auth Key
+     // Replace with your Auth Key
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setDecorFitsSystemWindows(false); // Equivalent to enableEdgeToEdge()
 
+         String appID = getString(R.string.cometchat_app_id); // Replace with your App ID
+        String region = getString(R.string.cometchat_region); // Replace with your App Region
+         String authKey = getString(R.string.cometchat_auth_key);
         UIKitSettings uiKitSettings = new UIKitSettings.UIKitSettingsBuilder()
                 .setRegion(region)
                 .setAppId(appID)
